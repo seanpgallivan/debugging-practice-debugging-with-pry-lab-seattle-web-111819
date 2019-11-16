@@ -13,8 +13,8 @@ def crewlist
 end
 
 def greet_crew(crew)
-  greeting = crew.each {|crew_member| "Hello #{crew_member}."}
-   binding.pry
+  crew.each {|crew_member| "Hello #{crew_member}."}
+  binding.pry
 end
 
 def engage
