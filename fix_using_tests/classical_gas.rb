@@ -6,10 +6,10 @@ class GasStation
   # https://stackoverflow.com/questions/20018784/attr-accessor-vs-attr-reader-instance-variables/20018831
   attr_reader :brand, :unleaded_price
 
-  def initialize(brand, unleaded_price)
-    @brand = brand
-    @unleaded_price = unleaded_price
-  end
+#  def initialize(brand, unleaded_price)
+#    @brand = brand
+#    @unleaded_price = unleaded_price
+#  end
 
 end
 
